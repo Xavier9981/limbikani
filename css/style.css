@@ -287,8 +287,8 @@ header {
   box-shadow: 0 2px 8px 0 rgba(51, 51, 51, 0.933);
   padding: 10px 10px 10px 30px;
   border-radius: 5px;
-  /*background: url(/src/1642760261Seamless\ Soccer\ pattern.svg);*/
-  background-image: url(/mabonzo/assets/svg/Abstract-Pattern-12--Arvin61r58.svg);
+  /*background: url(/src/1642760261Seamless\ Soccer\ pattern.svg);assets\svg\Abstract-Pattern-12--Arvin61r58.svg*/
+  background-image: url(/mabonzo/assets\svg\Abstract-Pattern-12--Arvin61r58.svg);
   background-size: contain;
 }
 
