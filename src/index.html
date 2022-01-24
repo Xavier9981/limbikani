@@ -11,45 +11,38 @@
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       crossorigin="anonymous"
     />
-
-    <!--<link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />-->
     <!--end font awesome link-->
 
     <!--start css link-->
-    <link rel="stylesheet" href="/mabonzo/css/style.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
     <!--end css link-->
 
     <!--start favicon link-->
-    <link rel="shortcut icon" href="/mabonzo/logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/src/logo.png" type="image/x-icon" />
     <!--end favicon link-->
   </head>
   <body>
-    <header>
-      <div>
+    <div class="header">
+      <header>
         <!--<img src="/" alt="logo">-->
-        <h1><a href="#" class="header-logo">Mabonzo</a></h1>
-      </div>
+        <h1><a href="/src/index.html" class="header-logo">Mabonzo</a></h1>
+      </header>
       <nav class="nav" id="nav-menu">
         <i class="fa fa-times-circle header-close" id="close-menu"></i>
 
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link active-nav-link" href="/mabonzo/index.html"
-              >Home</a
-            >
+            <a class="nav-link active-nav-link" href="/src/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/mabonzo/pages/about.html">About</a>
+            <a class="nav-link" href="/src/pages/about.html">About</a>
           </li>
           <li class="nav-item"><a class="nav-link" href="#">Popular </a></li>
           <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
       </nav>
       <i class="fa fa-bars header-toggle" id="toggle-menu"></i>
-    </header>
+    </div>
     <main class="main-container">
       <section class="welcome-container">
         <div>
@@ -132,7 +125,7 @@
           <div>
             <figure>
               <img
-                src="/mabonzo/assets/images/did-you-know.png"
+                src="/src/assets/images/did-you-know.png"
                 alt="did you know"
               />
             </figure>
@@ -163,7 +156,7 @@
           <div class="card-wrapper">
             <div>
               <figure>
-                <img src="/mabonzo/assets/images/baby.png" alt="baby" />
+                <img src="/src/assets/images/baby.png" alt="baby" />
               </figure>
             </div>
             <div>
@@ -176,7 +169,7 @@
           <div class="card-wrapper">
             <div>
               <figure>
-                <img src="/mabonzo/assets/images/help.png" alt="help" />
+                <img src="/src/assets/images/help.png" alt="help" />
               </figure>
             </div>
             <div>
@@ -189,7 +182,7 @@
             <div>
               <figure>
                 <img
-                  src="/mabonzo/assets/images/learn-about-your-name.png"
+                  src="/src/assets/images/learn-about-your-name.png"
                   alt="learn about your name"
                 />
               </figure>
@@ -210,50 +203,80 @@
           <h2><span>Mabonzo</span></h2>
         </div>
         <div>
-          <ul class="list-socials">
-            <li>
-              <a
-                href="https://www.youtube.com/channel/UCrNKDTsjRT4d1870BlGD4wA"
-                target="_blank"
-                class="fab fa-facebook-square"
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://wa.me/213541145717?text=Hello%20Xavier%I%just%visited%your%personal%blog%site."
-                target="_blank"
-                class="fab fa-whatsapp-square"
-              ></a>
-            </li>
-            <li>
-              <a
-                href="http://www.linkedin.com/in/xavier-muneku-600a44177"
-                target="_blank"
-                class="fab fa-instagram-square"
-              ></a>
-            </li>
-            <li>
-              <a
-                href="http://www.linkedin.com/in/xavier-muneku-600a44177"
-                target="_blank"
-                class="fab fa-twitter-square"
-              ></a>
-            </li>
-          </ul>
+          <div>
+            <ul class="list-socials">
+              <li>
+                <a
+                  href="https://www.facebook.com/pages/category/Education-website/src-108959598356913/"
+                  target="_blank"
+                  class="fab fa-facebook-square"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/213541145717?text=Hello%20Xavier%I%just%visited%your%personal%blog%site."
+                  target="_blank"
+                  class="fab fa-whatsapp-square"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/maMabonzo_zambia/"
+                  target="_blank"
+                  class="fab fa-instagram-square"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="http://www.linkedin.com/in/xavier-muneku-600a44177"
+                  target="_blank"
+                  class="fab fa-twitter-square"
+                ></a>
+              </li>
+            </ul>
+          </div>
 
-          <ul>
-            <li>
-              <a href="mailto:xavier.muneku@gmail.com" class="fa fa-envelope">
-                xavier.muneku@gmail.com</a
-              >
-            </li>
-            <li>
-              <a href="mailto:xavier.muneku@gmail.com" class="fab fa-discord">
-                You can also join our discord community and have interractive
-                conversations with our community!</a
-              >
-            </li>
-          </ul>
+          <div>
+            <ul>
+              <li>
+                <a href="mailto:xavier.muneku@gmail.com"
+                  ><i class="fa fa-envelope"></i
+                  ><span> xavier.muneku@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.com/invite/XkWWfaVW"
+                  ><i class="fab fa-discord"></i>
+                  <span
+                    >You can also click here to join our discord community and
+                    have interractive conversations with our community!</span
+                  ></a
+                >
+              </li>
+            </ul>
+
+            <div>
+              <p>
+                This site is hosted for free, so I am thanking the services I am
+                using by adding a link to their websites here in the footer.
+              </p>
+              <ul>
+                <li>
+                  <a href="https://www.netlify.com/"><i></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="http://www.linkedin.com/in/xavier-muneku-600a44177"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
       <footer class="footer">
@@ -264,6 +287,6 @@
       </footer>
     </div>
   </body>
-  <script src="/mabonzo/script/nav.js"></script>
-  <script src="/mabonzo/script/current-year-script.js"></script>
+  <script src="/src/script/nav.js"></script>
+  <script src="/src/script/current-year-script.js"></script>
 </html>
