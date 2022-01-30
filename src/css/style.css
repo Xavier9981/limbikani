@@ -100,7 +100,12 @@ ul {
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
     ". welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container ." ". list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container ." ". origin-container origin-container origin-container origin-container origin-container origin-container origin-container origin-container origin-container origin-container ."
-    ". available available available available available available available available available available ." ". encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo .";
+    ". available available available available available available available available available available ." ". encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo ."
+    ". search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel .";
+}
+
+.search-table-panel {
+  grid-area: search-table-panel;
 }
 
 .welcome-container {
