@@ -6,7 +6,7 @@ public_folder: "/assets/images"
 
 collections:
   - name: "letter-a"
-    label: "Add name starting with the Letter A"
+    label: "name starting with the Letter A"
     folder: "src/names/letter-a"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -22,7 +22,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["a"] }
 
   - name: "letter-b"
-    label: "Add name starting with the Letter B"
+    label: "name starting with the Letter B"
     folder: "src/names/letter-b"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -38,7 +38,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["b"] }
 
   - name: "letter-c"
-    label: "Add name starting with the Letter C"
+    label: "name starting with the Letter C"
     folder: "src/names/letter-c"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -54,7 +54,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["c"] }
 
   - name: "letter-d"
-    label: "Add name starting with the Letter D"
+    label: "name starting with the Letter D"
     folder: "src/names/letter-d"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -70,7 +70,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["d"] }
 
   - name: "letter-e"
-    label: "Add name starting with the Letter E"
+    label: "name starting with the Letter E"
     folder: "src/names/letter-e"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -86,7 +86,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["e"] }
 
   - name: "letter-f"
-    label: "Add name starting with the Letter F"
+    label: "name starting with the Letter F"
     folder: "src/names/letter-f"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -102,7 +102,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["f"] }
 
   - name: "letter-g"
-    label: "Add name starting with the Letter G"
+    label: "name starting with the Letter G"
     folder: "src/names/letter-g"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -118,7 +118,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["g"] }
 
   - name: "letter-h"
-    label: "Add name starting with the Letter H"
+    label: "name starting with the Letter H"
     folder: "src/names/letter-h"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -134,7 +134,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["h"] }
 
   - name: "letter-i"
-    label: "Add name starting with the Letter I"
+    label: "name starting with the Letter I"
     folder: "src/names/letter-i"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -150,7 +150,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["i"] }
 
   - name: "letter-j"
-    label: "Add name starting with the Letter J"
+    label: "name starting with the Letter J"
     folder: "src/names/letter-j"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -166,7 +166,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["j"] }
 
   - name: "letter-k"
-    label: "Add name starting with the Letter K"
+    label: "name starting with the Letter K"
     folder: "src/names/letter-k"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -182,7 +182,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["k"] }
 
   - name: "letter-l"
-    label: "Add name starting with the Letter L"
+    label: "name starting with the Letter L"
     folder: "src/names/letter-l"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -198,7 +198,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["l"] }
 
   - name: "letter-m"
-    label: "Add name starting with the Letter M"
+    label: "name starting with the Letter M"
     folder: "src/names/letter-m"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -214,7 +214,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["m"] }
 
   - name: "letter-n"
-    label: "Add name starting with the Letter N"
+    label: "name starting with the Letter N"
     folder: "src/names/letter-n"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -230,7 +230,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["n"] }
 
   - name: "letter-o"
-    label: "Add name starting with the Letter O"
+    label: "name starting with the Letter O"
     folder: "src/names/letter-o"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -246,7 +246,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["o"] }
 
   - name: "letter-p"
-    label: "Add name starting with the Letter P"
+    label: "name starting with the Letter P"
     folder: "src/names/letter-p"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -262,7 +262,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["p"] }
 
   - name: "letter-q"
-    label: "Add name starting with the Letter Q"
+    label: "name starting with the Letter Q"
     folder: "src/names/letter-q"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -278,7 +278,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["q"] }
 
   - name: "letter-r"
-    label: "Add name starting with the Letter R"
+    label: "name starting with the Letter R"
     folder: "src/names/letter-r"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -294,7 +294,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["r"] }
 
   - name: "letter-s"
-    label: "Add name starting with the Letter S"
+    label: "name starting with the Letter S"
     folder: "src/names/letter-s"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -310,7 +310,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["s"] }
 
   - name: "letter-t"
-    label: "Add name starting with the Letter T"
+    label: "name starting with the Letter T"
     folder: "src/names/letter-t"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -326,7 +326,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["t"] }
 
   - name: "letter-u"
-    label: "Add name starting with the Letter U"
+    label: "name starting with the Letter U"
     folder: "src/names/letter-u"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -342,7 +342,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["u"] }
 
   - name: "letter-v"
-    label: "Add name starting with the Letter V"
+    label: "name starting with the Letter V"
     folder: "src/names/letter-v"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -358,7 +358,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["v"] }
 
   - name: "letter-w"
-    label: "Add name starting with the Letter W"
+    label: "name starting with the Letter W"
     folder: "src/names/letter-w"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -374,7 +374,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["w"] }
 
   - name: "letter-x"
-    label: "Add name starting with the Letter X"
+    label: "name starting with the Letter X"
     folder: "src/names/letter-x"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -390,7 +390,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["x"] }
 
   - name: "letter-y"
-    label: "Add name starting with the Letter Y"
+    label: "name starting with the Letter Y"
     folder: "src/names/letter-y"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
@@ -406,7 +406,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["y"] }
 
   - name: "letter-z"
-    label: "Add name starting with the Letter Z"
+    label: "name starting with the Letter Z"
     folder: "src/names/letter-z"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
