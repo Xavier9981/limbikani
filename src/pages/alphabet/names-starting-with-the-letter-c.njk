@@ -27,18 +27,13 @@ layout: 'base.njk'
         data-show-search-clear-button="true"
       >
         <thead>
-          <tr>
-            <th>No.</th>
-            <th>Name</th>
-            <th>Description/ Meaning/ Cultural significance</th>
-            <th>Language(s)</th>
-          </tr>
+          {% include 'row-thead.njk' %}
         </thead>
 
         <tbody>
 
           {% for post in collections.c | reverse %}
-              {% include 'row-snippet.njk' %}
+            {% include 'row-snippet.njk' %}
           {% endfor %}
           
         </tbody>
