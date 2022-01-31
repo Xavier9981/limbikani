@@ -12,7 +12,7 @@ collections:
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
     fields:
       - { label: "Number", name: "number", widget: "number" }
-      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Name", name: "title", widget: "string" }
       - {
           label: "Description/ Meaning/ Cultural significance",
           name: "description",
