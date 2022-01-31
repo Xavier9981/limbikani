@@ -13,7 +13,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["a"] }
 
@@ -25,7 +29,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["b"] }
 
@@ -37,7 +45,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["c"] }
 
@@ -49,7 +61,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["d"] }
 
@@ -61,7 +77,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["e"] }
 
@@ -73,7 +93,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["f"] }
 
@@ -85,7 +109,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["g"] }
 
@@ -97,7 +125,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["h"] }
 
@@ -109,7 +141,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["i"] }
 
@@ -121,7 +157,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["j"] }
 
@@ -133,9 +173,13 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["k"] }   
+      - { label: "Tags", name: "tags", widget: "list", default: ["k"] }
 
   - name: "letter-l"
     label: "Add name starting with the Letter L"
@@ -145,7 +189,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["l"] }
 
@@ -157,7 +205,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["m"] }
 
@@ -169,10 +221,13 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["n"] }
-
 
   - name: "letter-o"
     label: "Add name starting with the Letter O"
@@ -182,7 +237,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["o"] }
 
@@ -194,10 +253,14 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["p"] }
-      
+
   - name: "letter-q"
     label: "Add name starting with the Letter Q"
     folder: "src/names/letter-q"
@@ -206,7 +269,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["q"] }
 
@@ -218,7 +285,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["r"] }
 
@@ -230,11 +301,15 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["s"] }
 
-    - name: "letter-t"
+  - name: "letter-t"
     label: "Add name starting with the Letter T"
     folder: "src/names/letter-t"
     create: true
@@ -242,7 +317,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["t"] }
 
@@ -254,7 +333,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["u"] }
 
@@ -266,7 +349,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["v"] }
 
@@ -278,7 +365,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["w"] }
 
@@ -290,7 +381,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["x"] }
 
@@ -302,7 +397,11 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["y"] }
 
@@ -314,6 +413,10 @@ collections:
     fields:
       - { label: "Number", name: "number", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Description/ Meaning/ Cultural significance", name: "description", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
       - { label: "Language(s)", name: "name", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["z"] }
