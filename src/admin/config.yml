@@ -12,13 +12,13 @@ collections:
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
     fields:
       - { label: "Number", name: "number", widget: "number" }
-      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
       - {
           label: "Description/ Meaning/ Cultural significance",
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["a"] }
 
   - name: "letter-b"
@@ -34,7 +34,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["b"] }
 
   - name: "letter-c"
@@ -44,13 +44,13 @@ collections:
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
     fields:
       - { label: "Number", name: "number", widget: "number" }
-      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Name", name: "title", widget: "string" }
       - {
           label: "Description/ Meaning/ Cultural significance",
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["c"] }
 
   - name: "letter-d"
@@ -66,7 +66,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["d"] }
 
   - name: "letter-e"
@@ -82,7 +82,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["e"] }
 
   - name: "letter-f"
@@ -98,7 +98,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["f"] }
 
   - name: "letter-g"
@@ -114,7 +114,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["g"] }
 
   - name: "letter-h"
@@ -130,7 +130,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["h"] }
 
   - name: "letter-i"
@@ -146,7 +146,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["i"] }
 
   - name: "letter-j"
@@ -162,7 +162,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["j"] }
 
   - name: "letter-k"
@@ -178,7 +178,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["k"] }
 
   - name: "letter-l"
@@ -194,7 +194,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["l"] }
 
   - name: "letter-m"
@@ -210,7 +210,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["m"] }
 
   - name: "letter-n"
@@ -226,7 +226,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["n"] }
 
   - name: "letter-o"
@@ -242,7 +242,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["o"] }
 
   - name: "letter-p"
@@ -258,7 +258,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["p"] }
 
   - name: "letter-q"
@@ -274,7 +274,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["q"] }
 
   - name: "letter-r"
@@ -290,7 +290,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["r"] }
 
   - name: "letter-s"
@@ -306,7 +306,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["s"] }
 
   - name: "letter-t"
@@ -322,7 +322,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["t"] }
 
   - name: "letter-u"
@@ -338,7 +338,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["u"] }
 
   - name: "letter-v"
@@ -354,7 +354,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["v"] }
 
   - name: "letter-w"
@@ -370,7 +370,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["w"] }
 
   - name: "letter-x"
@@ -386,7 +386,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["x"] }
 
   - name: "letter-y"
@@ -402,7 +402,7 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["y"] }
 
   - name: "letter-z"
@@ -418,5 +418,5 @@ collections:
           name: "description",
           widget: "string",
         }
-      - { label: "Language(s)", name: "name", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: ["z"] }
