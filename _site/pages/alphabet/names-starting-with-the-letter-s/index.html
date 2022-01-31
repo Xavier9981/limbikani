@@ -21,81 +21,75 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <!--end netlify-identity-->
 
-    <title>Mabonzo | About</title>
+    <title>Mabonzo | Names starting with the letter S</title>
   </head>
   <body>
-
     
-<div class="header">
-  <header>
+    <div class="header">
+    <header>
     <!--<img src="/" alt="logo">-->
     <h1><a href="/" class="header-logo">Mabonzo</a></h1>
-  </header>
-  <nav class="nav" id="nav-menu">
+    </header>
+    <nav class="nav" id="nav-menu">
     <i class="fa fa-times-circle header-close" id="close-menu"></i>
 
     <ul class="nav-list">
-      <li class="nav-item">
+        <li class="nav-item">
         <a class="nav-link" href="/">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active-nav-link" href="/pages/about">About</a>
-      </li>
-      <li class="nav-item"><a class="nav-link" href="/pages/popular">Popular</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="/pages/about.html">About</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/pages/popular">Popular </a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
     </ul>
-  </nav>
-  <i class="fa fa-bars header-toggle" id="toggle-menu"></i>
+    </nav>
+    <i class="fa fa-bars header-toggle" id="toggle-menu"></i>
 </div>
+
+    
 <main class="main-container">
-  <section class="encyclo">
+  <div class="search-table-panel">
     <div>
       <div>
-        <h2>Hey, I'm Xavier K Muneku!</h2>
-
-        <p>
-          Trying to do my part in making Zambia and the world at large a better
-          place.
-        </p>
-        <p class="figcap center-text">Founder of Mabonzo</p>
+        <h2>Names starting with the letter S</h2>
       </div>
       <div>
-        <figure>
-          <img src="/assets/images/profile.JPG" alt="xavier" />
-        </figure>
+        <input
+          type="text"
+          name="search"
+          id="myInput"
+          onkeyup="tableSearch()"
+          placeholder="Search by Name..."
+        />
       </div>
     </div>
-    <p>
-      As a Zambian it hurts me to see the minimal original content that is on
-      the internet representing us Zambians, the funny part is that even the
-      minimal content present on the internet right now isn't even published by
-      Zambians most of the time. Henceforth the content delieved isn't fact
-      checked thoroughly and the stories told aren't told from a common
-      Zambian's perspective.
-    </p>
-
-    <p>
-      That's why I'am doing my part with the setting up of Mabonzo a proudly
-      Zambian owned website which is purposefully built to be an online
-      encyclopedia of Zambian names only. My hope and prayer is that this
-      initiative will help movitate more Zambians to do the same and maybe we
-      can increase the content present on the net representing Zambians.
-    </p>
-    <p>
-      Glad you've reached this bottom end and I'm intrigued to hear from you so
-      get in touch with me on
-      <a
-        href="https://wa.me/213541145717?text=Hello%20Xavier%I%I%visited%your%website%please%help%me%to%find%the%meaning%of%my%name."
-        target="_blank"
-        class="whatsapp-link"
-        ><i class="fab fa-whatsapp"></i> WhatsApp</a
+    <div>
+      <table
+        class="table"
+        id="myTable"
+        data-filter-control="true"
+        data-show-search-clear-button="true"
       >
-      and let me know how we can help improve Zambia's representation on the
-      internet.
-    </p>
-  </section>
-</main>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Description/ Meaning/ Cultural significance</th>
+            <th>Language(s)</th>
+          </tr>
+        </thead>
 
+        <tbody>
+
+          
+          
+        </tbody>
+      </table>
+    </div>
+    <div id="output"></div>
+  </div>
+</main>
 
     <div class="footer-container">
     <div class="sub-footer">
@@ -190,5 +184,6 @@
   </body>
   <script src="/script/nav.js"></script>
   <script src="/script/current-year-script.js"></script>
+  <script src="/script/table-search.js"></script>
   <script src="/script/netlifyIdentity.js"></script>
 </html>

@@ -1,0 +1,46 @@
+---
+title: Names starting with the letter G
+layout: "base.njk"
+---
+
+<main class="main-container">
+  <div class="search-table-panel">
+    <div>
+      <div>
+        <h2>Names starting with the letter G</h2>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="search"
+          id="myInput"
+          onkeyup="tableSearch()"
+          placeholder="Search by Name..."
+        />
+      </div>
+    </div>
+    <div>
+      <table
+        class="table"
+        id="myTable"
+        data-filter-control="true"
+        data-show-search-clear-button="true"
+      >
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Description/ Meaning/ Cultural significance</th>
+            <th>Language(s)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for post in collections.g | reverse %} {% include 'row-snippet.njk' %} 
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <div id="output"></div>
+  </div>
+</main>
