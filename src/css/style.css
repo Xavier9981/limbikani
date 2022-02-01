@@ -102,6 +102,7 @@ ul {
     ". welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container welcome-container ." ". list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container list-alphabet-container ." ". origin-container origin-container origin-container origin-container origin-container origin-container origin-container origin-container origin-container origin-container ."
     ". available available available available available available available available available available ." ". encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo encyclo ."
     ". search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel search-table-panel .";
+  margin: 20px 0;
 }
 
 .search-table-panel {
@@ -130,10 +131,11 @@ ul {
 }
 
 .search-table-panel div table thead tr th {
-  padding: 15px 15px;
+  padding: 5px 10px;
   border: 1px solid #c7c7c7;
   background: #dddddd;
 }
+
 .search-table-panel div table tbody tr td {
   border: 1px solid #c7c7c7;
   text-align: center;
@@ -388,16 +390,9 @@ ul {
   background: #e27d60;
   display: flex;
   /*padding: 0 5px 5px 5px;*/
-  margin-top: auto;
+  margin: auto;
   flex-direction: column;
-  margin: 20px 0 0 0;
-}
-
-.sub-footer {
-  /*height: 100px;
-  background: #41b3a3;*/
-  border-radius: 15px;
-  margin: 5px 0;
+  /*margin: 20px 0 0 0;*/
 }
 
 .sub-footer > div:nth-child(1) h2 {
@@ -556,7 +551,6 @@ ul {
 }
 
 /*start media queries*/
-
 @media screen and (max-width: 800px) {
   .search-table-panel div:nth-child(2) table {
     box-shadow: none;

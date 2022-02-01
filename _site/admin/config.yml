@@ -5,6 +5,23 @@ media_folder: "_site/assets/images"
 public_folder: "/assets/images"
 
 collections:
+  - name: "popular"
+    label: "most popular names"
+    folder: "src/names/popular"
+    create: true
+    slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
+    fields:
+      - { label: "Number", name: "number", widget: "number" }
+      - { label: "Title/ Name", name: "name", widget: "string" }
+      - {
+          label: "Description/ Meaning/ Cultural significance",
+          name: "description",
+          widget: "string",
+        }
+      - { label: "Sex", name: "sex", widget: "string" }
+      - { label: "Language(s)", name: "language", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["popular"] }
+
   - name: "letter-a"
     label: "name starting with the Letter A"
     folder: "src/names/letter-a"
