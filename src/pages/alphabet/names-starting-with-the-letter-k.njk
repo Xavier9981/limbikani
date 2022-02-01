@@ -31,8 +31,9 @@ layout: "base.njk"
         </thead>
 
         <tbody>
-          {% for post in collections.k | reverse %} {% include 'row-snippet.njk'
-          %} {% endfor %}
+          {% for post in collections.k %}
+            {% include 'row-snippet.njk' %}
+          {% endfor %}
         </tbody>
       </table>
     </div>

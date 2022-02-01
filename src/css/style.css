@@ -232,6 +232,14 @@ ul {
   margin: 20px 0;
 }
 
+.list-alphabet-container hr {
+  height: 5px;
+  background: #333333;
+  border: none;
+  border-radius: 50%;
+  outline: 3px dotted;
+}
+
 .list-alphabet-title {
   padding: 10px 0;
 }
