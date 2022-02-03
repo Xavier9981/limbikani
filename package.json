@@ -1,5 +1,5 @@
 {
-  "name": "mabonzo",
+  "name": "limbikani",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xavier9981/mabonzo.git"
+    "url": "git+https://github.com/Xavier9981/limbikani.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Xavier9981/mabonzo/issues"
+    "url": "https://github.com/Xavier9981/limbikani/issues"
   },
-  "homepage": "https://github.com/Xavier9981/mabonzo#readme",
+  "homepage": "https://github.com/Xavier9981/limbikani#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0"
   }
