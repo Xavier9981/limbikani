@@ -229,9 +229,16 @@ ul {
   margin: 20px 0;
 }
 
-.list-alphabet-container hr {
-  height: 5px;
-  background: #333333;
+.hzontal-line-1 {
+  height: 6px;
+  background: linear-gradient(45deg, #41b3a3, #e27d60);
+  border: none;
+  border-radius: 50%;
+}
+
+.hzontal-line-2 {
+  height: 6px;
+  background: linear-gradient(45deg, #e27d60, #41b3a3);
   border: none;
   border-radius: 50%;
 }
