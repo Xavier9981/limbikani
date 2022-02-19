@@ -358,6 +358,9 @@ ul {
 
 .encyclo > div:nth-child(1) > div:nth-child(2) > figure {
   width: 100%;
+  background: #ffffff;
+  border: 4px dotted #000000;
+  border-radius: 10pc 10pc 10pc 10pc;
 }
 
 .encyclo > div:nth-child(1) > div:nth-child(2) > figure img {
