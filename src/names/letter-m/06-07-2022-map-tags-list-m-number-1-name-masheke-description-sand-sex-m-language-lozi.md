@@ -1,9 +1,9 @@
 ---
-number: 2
-name: Masheke
-description: "'Sand'"
+number: 3
+name: Mapalo
+description: "'Blessings'"
 sex: uni-sex
-language: Lozi
+language: Bemba
 tags:
   - m
 ---
