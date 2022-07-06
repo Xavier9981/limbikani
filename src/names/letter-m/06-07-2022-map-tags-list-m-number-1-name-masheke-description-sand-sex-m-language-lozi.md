@@ -1,5 +1,5 @@
 ---
-number: 3
+number: 2
 name: Mapalo
 description: "'Blessings'"
 sex: uni-sex
