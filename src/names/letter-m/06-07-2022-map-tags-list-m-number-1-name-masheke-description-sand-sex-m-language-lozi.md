@@ -1,8 +1,8 @@
 ---
-number: 1
+number: 2
 name: Masheke
-description: Sand
-sex: M
+description: "'Sand'"
+sex: uni-sex
 language: Lozi
 tags:
   - m
